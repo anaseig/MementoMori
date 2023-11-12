@@ -33,25 +33,29 @@
 <body>
     <h1>Memento Mori</h1>
     <div id="cookieBanner">
-        <p>Wenn du deine Daten nicht bei jedem Besuch erneut eingeben möchtest, kannst du der Nutzung von &#127850;
-            (Cookies)
-            zustimmen.</p>
+        <p>If you don't want to re-enter your details every time you visit, click <span style="font-weight:bold;">Accept</span> &#127850; (cookies)</p>
         <div id="buttons">
-            <div id="accept" onclick="setOptIn()">Zustimmen</div>
-            <div id="noThanks" onclick="closeBanner()">Ablehnen</div>
+            <div id="accept" onclick="setOptIn()">Accept</div>
+            <div id="noThanks" onclick="closeBanner()">No, Thanks</div>
         </div>
     </div>
+
     <div id="setup">
-        <label for="date">Your Birthdate</label>
+        <label for="date">Enter Your Birthdate</label>
         <input id="date" type="date" autofocus>
+
         <div>
             <input class="gender" type="radio" name="gender" value="m" checked> Male
             <input class="gender" type="radio" name="gender" value="f"> Female
         </div>
+
         <div id="submit" onclick="setup()">Let's go!</div>
     </div>
+
     <div id="weeks"></div>
-    <footer>Coded with 🖤 by Nicolai Kürtös</footer>
+
+    <div class="whitespace"></div>
+
     <script src="memento-mori.js"></script>
 </body>
 
