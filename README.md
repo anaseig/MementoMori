@@ -2,7 +2,7 @@
 <img src="assets/logo_README.png" alt="drawing" width="150"/>
 </p>
 
-# Memento Mori (Worked)
+# Memento Mori (Also Worked)
 
 ### About
 A calendar designed as a tool to help you harness the concept of Memento Mori by visualizing your life week by week.
