@@ -32,13 +32,6 @@
 
 <body>
     <h1>Memento Mori</h1>
-    <div id="cookieBanner">
-        <p>If you don't want to re-enter your details every time you visit, click <span style="font-weight:bold;">Accept</span> &#127850; (cookies)</p>
-        <div id="buttons">
-            <div id="accept" onclick="setOptIn()">Accept</div>
-            <div id="noThanks" onclick="closeBanner()">No, Thanks</div>
-        </div>
-    </div>
 
     <div id="setup">
         <label for="date">Enter Your Birthdate</label>
@@ -56,7 +49,15 @@
 
     <div class="whitespace"></div>
 
-    <script src="memento-mori.js"></script>
+    <!--COOKIE BANNER-->
+    <div id="cookieBanner">
+        <p>If you don't want to re-enter your details every time you visit, click <span style="font-weight:bold;">Accept</span> &#127850; (cookies)</p>
+        <div id="buttons">
+            <div id="accept" onclick="setOptIn()">Accept</div>
+            <div id="noThanks" onclick="closeBanner()">No, Thanks</div>
+        </div>
+    </div>
+
 </body>
 
 </html>
